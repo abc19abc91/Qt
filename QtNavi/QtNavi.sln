@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtNavi", "QtNavi\QtNavi.vcproj", "{3DE6DE7C-1912-4DC5-9E3A-589AE7F59DE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|tcc8925 (ARMv4I) = Debug|tcc8925 (ARMv4I)
+		Debug|Win32 = Debug|Win32
+		Release|tcc8925 (ARMv4I) = Release|tcc8925 (ARMv4I)
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DE6DE7C-1912-4DC5-9E3A-589AE7F59DE3}.Debug|tcc8925 (ARMv4I).ActiveCfg = Debug|tcc8925 (ARMv4I)
+		{3DE6DE7C-1912-4DC5-9E3A-589AE7F59DE3}.Debug|tcc8925 (ARMv4I).Build.0 = Debug|tcc8925 (ARMv4I)
+		{3DE6DE7C-1912-4DC5-9E3A-589AE7F59DE3}.Debug|tcc8925 (ARMv4I).Deploy.0 = Debug|tcc8925 (ARMv4I)
+		{3DE6DE7C-1912-4DC5-9E3A-589AE7F59DE3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3DE6DE7C-1912-4DC5-9E3A-589AE7F59DE3}.Debug|Win32.Build.0 = Debug|Win32
+		{3DE6DE7C-1912-4DC5-9E3A-589AE7F59DE3}.Release|tcc8925 (ARMv4I).ActiveCfg = Release|tcc8925 (ARMv4I)
+		{3DE6DE7C-1912-4DC5-9E3A-589AE7F59DE3}.Release|tcc8925 (ARMv4I).Build.0 = Release|tcc8925 (ARMv4I)
+		{3DE6DE7C-1912-4DC5-9E3A-589AE7F59DE3}.Release|tcc8925 (ARMv4I).Deploy.0 = Release|tcc8925 (ARMv4I)
+		{3DE6DE7C-1912-4DC5-9E3A-589AE7F59DE3}.Release|Win32.ActiveCfg = Release|Win32
+		{3DE6DE7C-1912-4DC5-9E3A-589AE7F59DE3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/bg_mainwnd.bmp</file>
+        <file>Resources/button/btn_navi_n.png</file>
+        <file>Resources/button/btn_navi_p.png</file>
+        <file>Resources/bg_dandelion.bmp</file>
+        <file>Resources/bg_topbar.bmp</file>
+    </qresource>
+</RCC>
