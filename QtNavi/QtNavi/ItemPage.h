@@ -38,19 +38,21 @@ protected:
 
  	void mousePressEvent(QGraphicsSceneMouseEvent *event)
  	{
- 		QGraphicsItemGroup::mousePressEvent(event);
  
  	}
 
 	void mouseReleaseEvent(QGraphicsSceneMouseEvent *event)
 	{
-		QGraphicsItemGroup::mouseReleaseEvent(event);
 	}
 
 	QRectF boundingRect() const
 	{
-		return QRectF(0, 0, 0, 0);
+		return QRectF(0, 0, 800, 480);
 	}
+
+	void dragEnterEvent(QGraphicsSceneDragDropEvent *event);
+	void dragLeaveEvent(QGraphicsSceneDragDropEvent *event);
+	void dropEvent(QGraphicsSceneDragDropEvent *event);
 
 	//virtual QRectF boundingRect ();
 private:

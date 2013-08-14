@@ -79,7 +79,7 @@ void UiManager::init(QtNaviView *view)
 
 			for (int j = 0; j < itemPageData.m_nItemCount; ++j)
 			{
- 				BaseItem *pixmapItem = new BaseItem(pItemPage);  
+ 				BaseItem *pixmapItem = new BaseItem(pItemPage, j);  
  				pixmapItem->setPixmap(QPixmap(itemPageData.m_lsItemData.at(j).imagePath));
  				pixmapItem->setRowIndex(itemPageData.m_lsItemData.at(j).row);
  				pixmapItem->setColIndex(itemPageData.m_lsItemData.at(j).col);
