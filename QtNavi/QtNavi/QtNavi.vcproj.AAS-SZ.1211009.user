@@ -34,34 +34,6 @@
 			/>
 		</Configuration>
 		<Configuration
-			Name="Debug|Win32"
-			>
-			<DebugSettings
-				Command="$(TargetPath)"
-				WorkingDirectory=""
-				CommandArguments=""
-				Attach="false"
-				DebuggerType="3"
-				Remote="1"
-				RemoteMachine="AMP-23"
-				RemoteCommand=""
-				HttpUrl=""
-				PDBPath=""
-				SQLDebugging=""
-				Environment="PATH=$(QTDIR)\bin;$(PATH)"
-				EnvironmentMerge="true"
-				DebuggerFlavor=""
-				MPIRunCommand=""
-				MPIRunArguments=""
-				MPIRunWorkingDirectory=""
-				ApplicationCommand=""
-				ApplicationArguments=""
-				ShimCommand=""
-				MPIAcceptMode=""
-				MPIAcceptFilter=""
-			/>
-		</Configuration>
-		<Configuration
 			Name="Release|tcc8925 (ARMv4I)"
 			>
 			<DebugSettings
@@ -94,6 +66,34 @@
 			<DebuggerTool
 				RemoteExecutable=""
 				Arguments=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="Debug|Win32"
+			>
+			<DebugSettings
+				Command="$(TargetPath)"
+				WorkingDirectory=""
+				CommandArguments=""
+				Attach="false"
+				DebuggerType="3"
+				Remote="1"
+				RemoteMachine="AMP-23"
+				RemoteCommand=""
+				HttpUrl=""
+				PDBPath=""
+				SQLDebugging=""
+				Environment="PATH=$(QTDIR)\bin;$(PATH)"
+				EnvironmentMerge="true"
+				DebuggerFlavor=""
+				MPIRunCommand=""
+				MPIRunArguments=""
+				MPIRunWorkingDirectory=""
+				ApplicationCommand=""
+				ApplicationArguments=""
+				ShimCommand=""
+				MPIAcceptMode=""
+				MPIAcceptFilter=""
 			/>
 		</Configuration>
 		<Configuration
