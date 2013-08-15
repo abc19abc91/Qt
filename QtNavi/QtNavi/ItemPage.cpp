@@ -15,7 +15,7 @@ ItemPage::ItemPage(QGraphicsItem *parent)
 	,m_nPageWidth(0)
 	,m_nPageHeight(0)
 {
-
+	this->setAcceptDrops(true);
 }
 
 ItemPage::~ItemPage()
@@ -122,4 +122,23 @@ void ItemPage::setPageWidth(int nWidth)
 void ItemPage::setPageHeight(int nHeight)
 {
 	m_nPageHeight = nHeight;
+}
+
+
+void ItemPage::dragEnterEvent(QGraphicsSceneDragDropEvent *event)
+{
+
+//	BaseItem * p = qobject_cast<BaseItem*>(event->source());
+	qDebug("dragEnterEvent") ;
+	
+}
+
+void ItemPage::dragLeaveEvent(QGraphicsSceneDragDropEvent *event)
+{
+	qDebug("dragLeaveEvent") ;
+}
+
+void ItemPage::dropEvent(QGraphicsSceneDragDropEvent *event)
+{
+	qDebug("dropEvent") ;
 }
